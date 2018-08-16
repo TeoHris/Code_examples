@@ -3,6 +3,9 @@ import fetchmaker
 from scipy.stats import binom_test
 from scipy.stats import f_oneway
 
+# test different hypothesis for a dog rescue project
+# project from CodeCademy
+
 rottweiler_tl = fetchmaker.get_tail_length("rottweiler")
 print np.mean(rottweiler_tl)
 print np.std(rottweiler_tl)
